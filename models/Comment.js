@@ -11,7 +11,7 @@ Comment.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
+        username: {
             type: DataTypes.STRING,
             allowNull: false,
         },
@@ -30,7 +30,7 @@ Comment.init(
                 key: 'id',
             },
         },
-        project_id: {
+        user_id: {
             type: DataTypes.INTEGER,
             references: {
                 model: 'user',
