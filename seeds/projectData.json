@@ -2,16 +2,13 @@
   {
     "name": "MongDB is better than MySQL",
     "description": "MySQL is living in the past. MongoDB is way easier to use.",
-    "needed_funding": 5000
   },
   {
     "name": "Coding Bootcamps",
     "description": "Only take a programming bootcamp if you have some knowledge or you are not working full-time.",
-    "needed_funding": 10000
   },
   {
     "name": "Front-end Development",
-    "description": "Front-end development is way more fun",
-    "needed_funding": 800
+    "description": "Front-end development is way more fun"
   }
 ]
