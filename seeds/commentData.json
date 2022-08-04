@@ -1,0 +1,17 @@
+[
+    {
+        "project_id": 1,
+        "comment": "Yes, MongoDB is cost effective, user friendly, & has flexible schemas.",
+        "user_id": 3
+    },
+    {
+        "project_id": 2,
+        "comment": "Coding bootcamp is way too fast paced for most people. It is recommended that you study prior to attending.",
+        "user_id": 1
+    },
+    {
+        "project_id": 3,
+        "comment": "I don't really think so, it's more exciting to know how something works from the back-end. Although, front-end can be very important.",
+        "user_id": 2
+    }
+]
