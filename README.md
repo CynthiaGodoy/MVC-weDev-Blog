@@ -53,19 +53,19 @@ DB_USER=root
 DB_PASSWORD= `your mysql password`
 ```
 
-Start MySQL
+Start MySQL and enter your Password
 ```
 mysql -u root -p
 ```
 
-Create Database in MySQL
-```
-CREATE DATABASE `name of your database`
-```
-
-Exit mysql
+Exit mysql and go to Terminal
 ```
 Exit
+```
+
+Run Seeds
+```
+node seeds/seed.js
 ```
 
 Start Program
@@ -73,6 +73,10 @@ Start Program
 Node server.js
 ```
 
+Kill Port, if necessary
+```
+npx kill-port 3001
+```
 ## Deployed Heroku URL: 
 
 [Heroku]()
