@@ -3,25 +3,45 @@ const { Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 //TODO:NOT WORKING
-router.get("/", async (req, res) => {
-    try {
-        const commentData = await Comment.findAll({
-            include: {
-                id: req.params.id
-            },
+// router.get("/", async (req, res) => {
+//     try {
+//         const commentData = await Comment.findAll({
+//             include: {
+//                 id: req.params.id
+//             },
+//     });
+
+//     const project = projectData.map((activity) =>
+//         activity.get({ plain: true })
+//     );
+
+//     res.render("homepage", {
+//         project,
+//         logged_in: req.session.logged_in,
+//         });
+//     } catch (err) {
+//         res.status(500).json(err);
+//     }
+// });
+router.get('/', (req,res) => {
+    Comment.findAll({})
+    .then(commentData => res.json(commentData))
+    .catch(err => {
+        console.log(err);
+        res.status(500).json(err)
     });
-
-    const project = projectData.map((activity) =>
-        activity.get({ plain: true })
-    );
-
-    res.render("homepage", {
-        project,
-        logged_in: req.session.logged_in,
-        });
-    } catch (err) {
-        res.status(500).json(err);
-    }
+});
+router.get('/:id', (req, res) => {
+    Comment.findAll({
+            where: {
+                id: req.params.id
+            }
+        })
+        .then(commentData => res.json(commentData))
+        .catch(err => {
+            console.log(err);
+            res.status(500).json(err);
+        })
 });
 
 // CREATE COMMENT
