@@ -10,4 +10,12 @@ Project.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
-module.exports = { User, Project };
+Project.hasMany(Comment,{
+  foreignKey: 'project_id'
+});
+
+Comment.belongsTo(User, {
+  foreignKey: 'project_id'
+})
+
+module.exports = { User, Project, Comment };
