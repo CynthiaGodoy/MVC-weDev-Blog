@@ -4,29 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fund My Project!</title>
+  <title>webDev Blog</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="computer">💻</span>
-        <a href="/">webDev Blog</a>
-      </h1>
+  {{!-- <div class="flex-column justify-space-around"> --}}
+    <header class="nav">
       <nav class="navbar">
         <a href="/">Home</a>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile">Dashboard</a> |
+        <a href="/profile">Dashboard</a> 
         <button class="no-button" id="logout">logout</button>
         {{else}}
         <a href="/login">login</a>
         {{/if}}
-      </nav>
+        </nav>
+          <h1>
+            <a href="/">webDev Blog</a>
+          </h1>
     </header>
+    
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
       {{{ body }}}
@@ -34,7 +34,7 @@
     <footer>
       
     </footer>
-  </div>
+  {{!-- </div> --}}
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}

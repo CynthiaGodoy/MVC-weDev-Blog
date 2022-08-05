@@ -1,14 +1,14 @@
 [
   {
-    "title": "MongDB is better than MySQL",
-    "description": "MySQL is living in the past. MongoDB is way easier to use."
+    "title": "MongoDB vs MySQL",
+    "description": "MySQL is living in the past. MongoDB is user friendly and is better for a visual learner. Learning MySQL Joins can be very complicated when using large sets of data."
   },
   {
     "title": "Coding Bootcamps",
-    "description": "Only take a programming bootcamp if you have some knowledge or you are not working full-time."
+    "description": "Only take a programming bootcamp if you have some previous knowledge. It is also very hard to keep up with the assignments while working full-time. I highly recommend not working at all or only working part-time."
   },
   {
-    "title": "Front-end Development",
-    "description": "Front-end development is way more fun"
+    "title": "Front-end vs Back-end Dev",
+    "description": "Front-end development is more fun than the back-end because you have the ability to play around with colors. I recommend learning both so that you have a deeper understanding."
   }
 ]
