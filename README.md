@@ -110,10 +110,10 @@ Node server.js or npm start
 ✅The user can only stay on the site for a certain amount of time being idle and the user must log back in before they can add, update, or delete comments.
 
 ## Screenshot
-![](assets/Screenshot.PNG)
-![](assets/Screenshot2.PNG)
-![](assets/Screenshot3.PNG)
-![](assets/Screenshot4.PNG)
+![](public/assets/Screenshot.PNG)
+![](public/assets/Screenshot2.PNG)
+![](public/assets/Screenshot3.PNG)
+![](public/assets/Screenshot4.PNG)
 
 - - - 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
