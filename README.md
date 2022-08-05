@@ -65,18 +65,14 @@ Exit
 
 Run Seeds
 ```
-node seeds/seed.js
+node seeds/seed.js or npm run seed
 ```
 
 Start Program
 ```
-Node server.js
+Node server.js or npm start
 ```
 
-Kill Port, if necessary
-```
-npx kill-port 3001
-```
 ## Deployed Heroku URL: 
 
 [Heroku]()
@@ -114,7 +110,10 @@ npx kill-port 3001
 ✅The user can only stay on the site for a certain amount of time being idle and the user must log back in before they can add, update, or delete comments.
 
 ## Screenshot
-![](images/Screenshot.PNG)
+![](public/assets/Screenshot.PNG)
+![](public/assets/Screenshot2.PNG)
+![](public/assets/Screenshot3.PNG)
+![](public/assets/Screenshot4.PNG)
 
 - - - 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
