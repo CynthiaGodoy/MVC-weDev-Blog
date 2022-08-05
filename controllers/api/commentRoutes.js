@@ -50,8 +50,8 @@ router.post('/', withAuth, async (req, res) => {
     const commentData = await Comment.create({
         ...req.body,
         user_id: req.session.user_id,
-        comment_description: req.body.post_id,
-        project_id: req.session.user_id,
+        // comment_description: req.body.comment_description,
+        // project_id: req.session.user_id,
     });
     res.status(200).json(commentData);
     } catch (err) {
@@ -65,7 +65,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     const commentData = await Comment.destroy({
         where: {
         id: req.params.id,
-        // user_id: req.session.user_id,
+        user_id: req.session.user_id,
         },
     });
 

@@ -1,7 +1,7 @@
 const commentFormHandler = async (event) => {
     event.preventDefault();
 
-    const project_id = document.querySelector('.new-comment-form').value.trim()
+    const project_id = document.querySelector('#comment-form').value.trim()
     const comment_description = document.querySelector('#comment_description').value
 
     if (comment_description) {

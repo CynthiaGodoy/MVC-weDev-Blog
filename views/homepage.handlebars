@@ -3,7 +3,7 @@
 <div class="card">
   <div class="header">
     <h2><a href="/project/{{project.id}}">{{project.title}}</a></h2>
-    <p>Created by {{user.username}} on {{format_date project.date_created}}</p>
+    <p>Created by {{project.user.username}} on {{format_date project.date_created}}</p>
   </div>
   <div class="footer">
     <p>{{project.description}}</p>
