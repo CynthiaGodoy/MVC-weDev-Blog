@@ -197,14 +197,14 @@ p {
   /* margin-left: 10%; */
 }
 
-.signup-btn, .login-btn, .btn-create, .btn-delete {
+.signup-btn, .login-btn, .btn-create, .btn-delete, .delete {
   width: 81%;
   /* margin-left: 10%; */
   margin-top: 5px;
   margin-bottom: 15px;
   /* justify-content: center; */
   padding: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* PROFILE PAGE / BLOG ENTRY ---------------- */
@@ -236,4 +236,35 @@ p {
   margin-left: 10%;
   padding: 6px;
   font-size: 18px;
+}
+
+.single-comment {
+  background-color: yellow;
+}
+
+
+/* SINGLE COMMENT ------------ */
+.single-comment p {
+  color: black;
+  margin-bottom: 5px;
+}
+
+.delete-btn{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  /* justify-content: center; */
+  padding: 10px;
+  font-size: 16px;
+}
+
+.create-btn {
+  width: 96%;
+  /* margin-left: 2.5%; */
+  margin-top: 5px;
+  margin-bottom: 15px;
+  /* justify-content: center; */
+  padding: 10px;
+  font-size: 16px;
 }

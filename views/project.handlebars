@@ -18,7 +18,7 @@
         <textarea class="comment-entry" id="comment_description" name="entry"></textarea>
       </div>
       <div>
-        <button class="submit-btn" type="submit">Add Comment</button>
+        <button class="create-btn" type="submit">Add Comment</button>
       </div>
     </form>
   </div>
@@ -27,15 +27,19 @@
 </div>
 
   {{#each comments as |comment|}}
-  <div class="single-comment">
-    <p>{{comment_description}}</p>
-    <p>Created by {{user.username}} on {{format_date date_created}}</p>
-  </div>{{/each}}
-  
+  <div class="card-project">
+    <div class="header-project">
+      <h2>Posted Comment:</h2>
+      <p>Created by {{user.username}} on {{format_date date_created}}</p>
+    </div>
+
+    <div class="footer"> 
+      <p>{{comment_description}}</p>
+    </div>
+    {{/each}}
   {{#if logged_in}}
-<button class="delete-btn" type="submit">Delete Comment</button>
+    <button class="delete-btn" type="submit">Delete Comment</button>
   {{/if}}
-  
 
 <script src="/js/profile.js"></script>
 <script src="/js/comment.js"></script>
