@@ -4,9 +4,11 @@
 
 A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site completely from scratch and it is deployed to Heroku. The app follows the **Model View Controller (MVC)** paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
-## Deployed Heroku URL: 
+## Deployed Heroku URL:  
 
-[Heroku](https://stark-river-94686.herokuapp.com/)
+[Heroku working without seeds](https://stark-river-94686.herokuapp.com/project/1) But all the seeds do work and they were working on MySQL Workbench.
+
+[Heroku Not working launched with JAWS](https://enigmatic-spire-21742.herokuapp.com/)
 
 ## Installation
 
