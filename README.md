@@ -6,7 +6,7 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 
 ## Deployed Heroku URL:  
 
-[Heroku working without seeds](https://stark-river-94686.herokuapp.com/project/1) But all the seeds do work and they were working on MySQL Workbench.
+[Heroku working without seeds](https://stark-river-94686.herokuapp.com) But all the seeds do work and they were working on MySQL Workbench.
 
 [Heroku Not working launched with JAWS](https://enigmatic-spire-21742.herokuapp.com/)
 
